@@ -170,6 +170,7 @@ header .intro-text .skills {
 .navbar-default,
 .navbar-inverse {
     border: 0;
+    background-color: #9c5a5a;
 }
 
 section {
@@ -245,6 +246,7 @@ section.success {
 
 #portfolio * {
     z-index: 2;
+    color: #777777;
 }
 
 @media(min-width:767px) {
