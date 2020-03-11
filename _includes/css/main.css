@@ -251,7 +251,6 @@ section.success {
 #portfolio * {
     z-index: 2;
     color: #a2a2a2
-    margin-bottom: 10px;
 }
 
 @media(min-width:767px) {
