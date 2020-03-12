@@ -12,6 +12,7 @@ body {
 
 p {
     font-size: 20px;
+    color: #ffffff;
 }
 
 p.small {
@@ -401,6 +402,7 @@ footer .footer-below {
     background-clip: border-box;
     -webkit-box-shadow: none;
     box-shadow: none;
+    background-color: #373737;
 }
 
 .portfolio-modal .modal-content h2 {
