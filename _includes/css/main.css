@@ -25,7 +25,7 @@ a:focus,
 a:active,
 a.active {
     outline: 0;
-    color: #{{ site.color.primary }};
+    color: #95efb5;
 }
 
 h1,
