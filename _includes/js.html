@@ -22,10 +22,10 @@
     <script defer src="{{ "/js/contact_me.js" }}"></script>
     {% endif %}
     <!-- Custom Theme JavaScript -->
-    <script src="{{ "/js/freelancer.js" }}"></script>
-    <!--<script>
-    $(function(){$(".page-scroll a").bind("click",function(a){var b=$(this);$("html, body").stop().animate({scrollTop:$(b.attr("href")).offset().top},1500,"easeInOutExpo"),a.preventDefault()})}),$(function(){$("body").on("input propertychange",".floating-label-form-group",function(a){$(this).toggleClass("floating-label-form-group-with-value",!!$(a.target).val())}).on("focus",".floating-label-form-group",function(){$(this).addClass("floating-label-form-group-with-focus")}).on("blur",".floating-label-form-group",function(){$(this).removeClass("floating-label-form-group-with-focus")})}),$("body").scrollspy({target:".navbar-fixed-top"}),$(".navbar-collapse ul li a").click(function(){$(".navbar-toggle:visible").click()});
-    </script>-->
+    <!--<script src="{{ "/js/freelancer.js" }}"></script>-->
+    <script>
+  $(function(){$(".page-scroll a").bind("click",function(a){var b=$(this);$("html, body").stop().animate({scrollTop:$(b.attr("href")).offset().top},1500,"easeInOutExpo"),a.preventDefault()})}),$(function(){$("body").on("input propertychange",".floating-label-form-group",function(a){$(this).toggleClass("floating-label-form-group-with-value",!!$(a.target).val())}).on("focus",".floating-label-form-group",function(){$(this).addClass("floating-label-form-group-with-focus")}).on("blur",".floating-label-form-group",function(){$(this).removeClass("floating-label-form-group-with-focus")})}),$(".navbar-collapse ul li a").click(function(){$(".navbar-toggle:visible").click()});
+    </script>
     <!-- jsdelivr -->
     <script defer async src="https://cdn.jsdelivr.net/npm/perfops-rom"></script>
     {% if site.contact == "disqus" %}
