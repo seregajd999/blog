@@ -1,10 +1,10 @@
  <!-- jQuery Version 1.11.0 -->
     <script src="{{ "/js/jquery-1.11.0.js" }}"></script>
     <!-- Bootstrap Core JavaScript -->
-    <script src="{{ "/js/bootstrap.min.js" }}"></script>
+    <script defer src="{{ "/js/bootstrap.min.js" }}"></script>
     <!-- Plugin JavaScript -->
-    <script src="{{ "/js/jquery.easing.min.js" }}"></script>
-    <script src="{{ "/js/classie.js" }}"></script>
+    <script defer src="{{ "/js/jquery.easing.min.js" }}"></script>
+    <script defer src="{{ "/js/classie.js" }}"></script>
     <!--<script src="{{ "/js/cbpAnimatedHeader.js" }}"></script>-->
     <script>
     var cbpAnimatedHeader=function(){function a(){var a=b();a>=300?classie.add(d,"navbar-shrink"):classie.remove(d,"navbar-shrink"),e=!1}function b(){return window.pageYOffset||c.scrollTop}var c=document.documentElement,d=document.querySelector(".navbar-fixed-top"),e=!1;(function(){window.addEventListener("scroll",function(){e||(e=!0,setTimeout(a,250))},!1)})()}();
@@ -12,14 +12,14 @@
 
     </script>
     <!-- Contact Form JavaScript -->
-    <script src="{{ "/js/jqBootstrapValidation.js" }}"></script>
+    <script defer src="{{ "/js/jqBootstrapValidation.js" }}"></script>
     {% if site.contact == "static" %}
     <!--<script src="{{ "/js/contact_me_static.js" }}"></script>-->
     <script>
-    $(function(){$("input,textarea").jqBootstrapValidation({preventSubmit:!0,submitError:function(){},filter:function(){return $(this).is(":visible")}}),$("a[data-toggle=\"tab\"]").click(function(a){a.preventDefault(),$(this).tab("show")})}),$("#name").focus(function(){$("#success").html("")});  
+    $(function(){$("input,textarea").jqBootstrapValidation({preventSubmit:!0,submitError:function(){},filter:function(){return $(this).is(":visible")}}),$("a[data-toggle=\"tab\"]").click(function(a){a.preventDefault(),$(this).tab("show")})}),$("#name").focus(function(){$("#success").html("")});
     </script>
     {% else %}
-    <script src="{{ "/js/contact_me.js" }}"></script>
+    <script defer src="{{ "/js/contact_me.js" }}"></script>
     {% endif %}
     <!-- Custom Theme JavaScript -->
     <!--<script src="{{ "/js/freelancer.js" }}"></script>-->
@@ -27,7 +27,7 @@
     $(function(){$(".page-scroll a").bind("click",function(a){var b=$(this);$("html, body").stop().animate({scrollTop:$(b.attr("href")).offset().top},1500,"easeInOutExpo"),a.preventDefault()})}),$(function(){$("body").on("input propertychange",".floating-label-form-group",function(a){$(this).toggleClass("floating-label-form-group-with-value",!!$(a.target).val())}).on("focus",".floating-label-form-group",function(){$(this).addClass("floating-label-form-group-with-focus")}).on("blur",".floating-label-form-group",function(){$(this).removeClass("floating-label-form-group-with-focus")})}),$("body").scrollspy({target:".navbar-fixed-top"}),$(".navbar-collapse ul li a").click(function(){$(".navbar-toggle:visible").click()});
     </script>
     <!-- jsdelivr -->
-    <script async src="https://cdn.jsdelivr.net/npm/perfops-rom"></script>
+    <script defer async src="https://cdn.jsdelivr.net/npm/perfops-rom"></script>
     {% if site.contact == "disqus" %}
     <!-- Disqus Stuff -->
     {% include js_disqus.html %}
