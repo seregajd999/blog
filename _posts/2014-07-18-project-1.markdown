@@ -5,12 +5,10 @@ date: 2014-07-18
 img: sitelehi.webp
 img-2: PORTFOLIO-1.webp
 alt: image-alt
-project-date: April 2014
-client: Леха
+project-date:
+client:
 category: Web Development
-description:
-Сайт из архива. Написан на MUSE.<br> При тестировании использовались следующие ресурсы:<br> 1.Сайт Gtmetrix<br> 2.Сайт Webpagetest<br> 3.Сайт
+description: Сайт из архива. Написан на MUSE.<br> При тестировании использовались следующие ресурсы:<br> 1.Сайт Gtmetrix<br> 2.Сайт Webpagetest<br> 3.Сайт
 PageSpeed Insights
-
 
 ---
