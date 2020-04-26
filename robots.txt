@@ -1,9 +1,9 @@
 User-agent: Yandex
-Sitemap: http://gofiblog.ml/sitemap.xml
+Sitemap: https://gofiblog.ml/sitemap.xml
 
 User-agent: Googlebot
-Sitemap: http://gofiblog.ml/sitemap.xml
+Sitemap: https://gofiblog.ml/sitemap.xml
 
 
 User-agent: *
-Sitemap: http://gofiblog.ml/sitemap.xml
+Sitemap: https://gofiblog.ml/sitemap.xml
