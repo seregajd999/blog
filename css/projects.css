@@ -4,7 +4,7 @@
 .project-outer { vertical-align: top; }
 .project-outer .project-headlines { margin: 5px 0; border-bottom: 1px #EEE solid; font-size: 20px; }
 .project-outer .project-inner > a { display: block; }
-.project-outer .project-img { height: 330px; display: block; background-size: cover; background-repeat: no-repeat; background-position: center center; }
+.project-outer .project-img { height: 200px; display: block; background-size: cover; background-repeat: no-repeat; background-position: center center; }
 .project-outer span.tags { border-bottom: 1px #888 solid; margin: 0 5px; font-size: 10px; }
 .project-outer span.tags:first-child, .project-outer span.tags:last-child { margin-left: 0; }
 .project-outer .project-footer { clear: both; display: inline-block; width: 100%; }

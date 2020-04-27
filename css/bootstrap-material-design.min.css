@@ -29,7 +29,7 @@ h6 {
 a,
 a:focus,
 a:hover {
-	color: #009688
+	color: #59d47b;
 }
 a .material-icons,
 a:focus .material-icons,
@@ -2034,7 +2034,7 @@ legend {
 	position: absolute;
 	right: 16px;
 	top: 0;
-	color: rgba(0, 0, 0, .54);
+	color: #5ad67d;
 	font-size: 14px
 }
 .list-group .list-group-item .list-group-item-heading {
@@ -2950,7 +2950,6 @@ hr.on-light {
 .noUi-target,
 .noUi-target * {
 	-webkit-touch-callout: none;
-	-ms-touch-action: none;
 	-webkit-user-select: none;
 	-moz-user-select: none;
 	-ms-user-select: none;
@@ -3181,7 +3180,6 @@ hr.on-light {
 	font-size: 7px;
 	content: "\e894";
 	font-family: Material-Design-Icons;
-	speak: none;
 	font-style: normal;
 	font-weight: 400;
 	font-variant: normal;
